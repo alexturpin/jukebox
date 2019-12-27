@@ -1,7 +1,8 @@
 import React from 'react';
+import { Search } from './Search';
 
 const App: React.FC = () => {
-	return <p>Hello, world!</p>;
+	return <Search />;
 };
 
-export default App;
+export { App };
